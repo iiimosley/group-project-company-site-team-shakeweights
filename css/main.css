@@ -4,21 +4,38 @@ body {
     margin: 0;
 }
 
+
+/* HEADER NAVBAR */
+
 .headPage {
-    padding-left: 4em;
-    padding-top: 5em;    
+    padding-left: 3em;
+    padding-top: 2em;   
+    background-image: linear-gradient(to right, rgba(240,240,0,0.7), rgba(0,0,255,0.1)), url("../img/shakeweight.jpg");
+    background-repeat: no-repeat;
+    background-position: right center; 
+    margin: 0;
+    font-style: italic;
+    font-size: 1.5em;
+    letter-spacing: .2em;
 }
 
+.headPage h3 {
+    margin: 0 auto;
+    padding-bottom: 1em;
+}
+
+
 nav {
-    margin: 3em auto 5em auto;
+    margin: 0 auto 5em auto;
 }
 
 .flexNav {
     display: flex;
     flex-direction: row;
     padding-left: 0;
-    background-color: black;
-    padding: 3em 1em 1em 1em;
+    background-image: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,1));
+    padding: 2em 1em .2em 1em;
+    margin: 0;
 }
 
 .flexNav li {
@@ -28,12 +45,37 @@ nav {
     flex-grow: 1;
     padding: .5em 2em;
     justify-content: space-around;
-    border-bottom: 2px solid black;
-    text-align: center;
+    text-align: right;
 }
 
 .flexNav a {
     display: inline-block;
     text-decoration: none;
     color: white;
+}
+
+.flexNav a:hover {
+    color: peachpuff;
+    font-weight: 500;
+    text-shadow: 2px 2px #203737;
+}
+
+/* MAIN CONTENT */
+
+.body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#fakeNews {
+    width: 65%;
+    float: left;
+    margin-left: .3em;
+    font-size: 1.1em;
+}
+
+#customer {
+    width: 30%;
+    float: right;
+    font-size: .9em;
 }
