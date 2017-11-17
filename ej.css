@@ -1,9 +1,23 @@
 .jobs {
     text-align: justify;
-    width: 50%;
+    width: 45%;
+    
     
 }
 
 .border {
     border-bottom: solid 5px black;
+    margin-top: -1.5em;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* Floats */
+.left {
+    float: left;
+    
+}
+
+.right {
+    float: right;
 }
