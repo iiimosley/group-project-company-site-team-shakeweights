@@ -1,3 +1,17 @@
-h3 {
-    border: 1em solid black;
+/* main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+} */
+
+.products-page h3{
+    margin: 3em auto;
+    padding: 2em 1em;
+    border: 2px double lightgrey;
+    border-bottom-right-radius: 2em;
+    box-shadow: 1px 1px 10px .5px #888888;
+    /* display: inline-block;
+    width: 35%; */
+
 }
