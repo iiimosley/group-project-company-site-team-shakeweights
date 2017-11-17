@@ -1,0 +1,35 @@
+.jobs {
+    text-align: left;
+    width: 80%;
+    
+    
+}
+
+.border {
+    border-bottom: solid 5px black;
+    margin-top: -1.5em;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#jobapp article {
+    margin: 3em auto;
+    padding: 2em 1em;
+    border: 2px double lightgrey;
+    border-bottom-right-radius: 2em;
+    box-shadow: 1px 1px 10px .5px #888888;
+}
+
+/* Floats */
+.left {
+    float: left;
+    width: 45%;
+    
+    
+}
+
+.right {
+    float: right;
+    width: 45%;
+    
+}
