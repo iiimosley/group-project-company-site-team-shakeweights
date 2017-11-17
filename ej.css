@@ -1,6 +1,6 @@
 .jobs {
-    text-align: justify;
-    width: 45%;
+    text-align: left;
+    width: 80%;
     
     
 }
@@ -12,12 +12,24 @@
     font-weight: lighter;
 }
 
+#jobapp article {
+    margin: 3em auto;
+    padding: 2em 1em;
+    border: 2px double lightgrey;
+    border-bottom-right-radius: 2em;
+    box-shadow: 1px 1px 10px .5px #888888;
+}
+
 /* Floats */
 .left {
     float: left;
+    width: 45%;
+    
     
 }
 
 .right {
     float: right;
+    width: 45%;
+    
 }
