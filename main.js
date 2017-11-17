@@ -48,9 +48,21 @@ var products = [
 for (var i=0; i<products.length; i++) {
         console.log(products[i]);
         if (i === 0) {
-        document.getElementById("classic-shakeweight").innerHTML+=products[i].name + products[i].description;
+            document.getElementById("classic-shakeweight").innerHTML+=products[i].name + "<br>" + products[i].description + "<br>" + products[i].prices + "<br>" + products[i].url;
         } else if (i === 1) {
-
+            document.getElementById("extra-heavy-shakeweight")
+        } else if (i === 2) {
+            document.getElementById("extra-light-shakeweight")
+        } else if (i === 3) {
+            document.getElementById("shake-your-weight-down") 
+        } else if (i === 4) {
+            document.getElementById("exclusive-shakeweight-sweatbands")
+        } else if (i === 5) {
+            document.getElementById("kewl-shakeweight-t")
+        } else if (i === 6) {
+            document.getElementById("not-so-kewl")
+        } else if (i === 7) {
+            document.getElementById("gloves")
         }
 
         // document.body.insertBefore("")
