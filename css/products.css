@@ -5,6 +5,13 @@
     flex-direction: column;
 } */
 
+main {
+        grid-template-columns: 100px 50px 100px;
+        grid-template-rows: 80px auto 80px; 
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+}
+
 .products-page h3{
     margin: 3em auto;
     padding: 2em 1em;
