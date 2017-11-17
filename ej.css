@@ -7,8 +7,8 @@
 
 
 .form {
-    width: 4em;
-    height: 4em;
+    width: 15em;
+    height: 25em;
 }
 .border {
     border-bottom: solid 5px black;
@@ -24,6 +24,7 @@
     border: 2px double lightgrey;
     border-bottom-right-radius: 2em;
     box-shadow: 1px 1px 10px .5px #888888;
+    background-color: white;
 }
 
 .test {
