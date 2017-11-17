@@ -1,20 +1,38 @@
 section#info {
     width: 100%;
 }
+section#info h2,p{
+    text-align: center;
+    text-align: justify;
+    padding: auto;
+    width: 90%;
+}
 div#about {
     width: 45%;
     float: left;
+    border: 2px double lightgrey;
+    border-bottom-right-radius: 2em;
+    box-shadow: 1px 1px 10px .5px #888888;
 }
 
 div#culture {
     width: 45%;
     float: right;
+    border: 2px double lightgrey;
+    border-bottom-right-radius: 2em;
+    box-shadow: 1px 1px 10px .5px #888888;
+    margin-bottom: 2em;
 }
 div.clearfloat {
     clear:both;
 }
 #staff {
     width: 100%;
+    border: 2px double lightgrey;
+    border-bottom-right-radius: 2em;
+    box-shadow: 1px 1px 10px .5px #888888;
+}
+#gallery {
     display: flex;
     flex-direction: row;
     padding-left: 0;
@@ -23,15 +41,20 @@ div.clearfloat {
 }
 #staff h2 {
     display: block;
+    text-align: center;
 }
-#staff div {
+#gallery div {
     display: inline-block;
     width: 22.5%;
     /*margin: 0 auto 0 0;*/
     padding-left: 2em;
     justify-content: space-around;
 }
-#staff img {
+#gallery img {
     width: 100%;
     position: relative;
+}
+main#about {
+    width: 100%;
+    margin-bottom: 3em;
 }
