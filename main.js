@@ -47,7 +47,11 @@ var products = [
 
 for (var i=0; i<products.length; i++) {
         console.log(products[i]);
-        document.getElementById("classic-shakeweight").innerHTML+=products[i].name;
+        if (i === 0) {
+        document.getElementById("classic-shakeweight").innerHTML+=products[i].name + products[i].description;
+        } else if (i === 1) {
+
+        }
 
         // document.body.insertBefore("")
         // document.getElementById(products[i].description);
