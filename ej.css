@@ -2,11 +2,14 @@
 
 .jobs {
     text-align: left;
-    width: 80%;
-    
-    
+    width: 80%;    
 }
 
+
+.form {
+    width: 4em;
+    height: 4em;
+}
 .border {
     border-bottom: solid 5px black;
     margin-top: -1.5em;
