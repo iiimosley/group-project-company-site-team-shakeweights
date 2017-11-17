@@ -3,7 +3,7 @@ console.log ("hello");
 var products = [
     {
         name: "Classic Shakeweight",
-        description: "The one and only - how you got hooked on what some call 'the best exercise equipment around, if you're really serious about getiing in the best shape of your life'",
+        description: "The one and only - how you got hooked on what some call 'the best exercise equipment around, if you're really serious about getting in the best shape of your life'",
         price: "$40",
         url: "https://images-na.ssl-images-amazon.com/images/I/31yJZRTzyKL.jpg"
     },
