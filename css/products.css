@@ -3,13 +3,37 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: stretch;
 }
 
-.products-page div {
+.flexParent1, .flexParent2, .flexParent3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    min-width: 960px;
+}
+
+.flexParent1 div {
     display: inline-block;
     flex-basis: 10%;
     flex: 1;
     margin: 1em;
+}
+
+.flexParent2 div {
+    display: inline-block;
+    flex-basis: 10%;
+    flex: 1;
+    margin: 1em;
+}
+
+.flexParent3 div {
+    display: inline-block;
+    flex-basis: 10%;
+    flex: 1;
+    margin: 5em;
 }
 
 .products-page h3{
