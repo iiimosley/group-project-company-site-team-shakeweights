@@ -1,3 +1,5 @@
+/* general styles */
+
 .jobs {
     text-align: left;
     width: 80%;
@@ -10,6 +12,7 @@
     margin-top: -1.5em;
     font-style: italic;
     font-weight: lighter;
+    box-shadow: 0 0px 0px 0px rgba(240,240,0,0.7);
 }
 
 #jobapp article {
@@ -18,6 +21,11 @@
     border: 2px double lightgrey;
     border-bottom-right-radius: 2em;
     box-shadow: 1px 1px 10px .5px #888888;
+}
+
+.test {
+    text-shadow: 3px 1px rgba(240,240,0,0.7);
+    h-shadoow
 }
 
 /* Floats */
@@ -31,5 +39,29 @@
 .right {
     float: right;
     width: 45%;
+    
+}
+
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* button stuff */
+
+.apply {
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    margin: 1em;
+    text-decoration: none;
+    padding: .5em 2em;
+    cursor: pointer;
+    font-weight: bolder;
+    color: rgba(240,240,0,0.7);
+    border-radius: 1.5em;
+    float: right;
     
 }
