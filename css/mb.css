@@ -1,10 +1,19 @@
+/*info portion*/
 section#info {
     width: 100%;
 }
-section#info h2,p{
+section#info h2{
     text-align: center;
+    margin: .5em auto;
+    width: 90%;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 2em;
+}
+section#info p{
     text-align: justify;
-    padding: auto;
+    margin: .8em auto;
     width: 90%;
 }
 div#about {
@@ -13,6 +22,7 @@ div#about {
     border: 2px double lightgrey;
     border-bottom-right-radius: 2em;
     box-shadow: 1px 1px 10px .5px #888888;
+    background-color: white;
 }
 
 div#culture {
@@ -22,26 +32,33 @@ div#culture {
     border-bottom-right-radius: 2em;
     box-shadow: 1px 1px 10px .5px #888888;
     margin-bottom: 2em;
+    background-color: white;
 }
 div.clearfloat {
     clear:both;
 }
+/*staff portion*/
 #staff {
     width: 100%;
     border: 2px double lightgrey;
     border-bottom-right-radius: 2em;
     box-shadow: 1px 1px 10px .5px #888888;
+    background-color: white;
 }
 #gallery {
     display: flex;
     flex-direction: row;
-    padding-left: 0;
-    padding: 2em 1em .2em 1em;
+    padding: 0 1em .2em 1em;
     margin: 0;
 }
 #staff h2 {
     display: block;
     text-align: center;
+    margin: .8em;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 2em;
 }
 #gallery div {
     display: inline-block;
@@ -53,6 +70,21 @@ div.clearfloat {
 #gallery img {
     width: 100%;
     position: relative;
+    border-radius: 50%;
+    margin-top: 0;
+}
+#gallery h5 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+#gallery h3 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1.2em;
 }
 main#about {
     width: 100%;
