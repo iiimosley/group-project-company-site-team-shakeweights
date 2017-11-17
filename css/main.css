@@ -17,6 +17,7 @@ body {
     font-style: italic;
     font-size: 1.5em;
     letter-spacing: .2em;
+    text-shadow: 4px 0 white;
 }
 
 .headPage h3 {
@@ -60,7 +61,7 @@ nav {
     text-shadow: 2px 2px #203737;
 }
 
-/* MAIN CONTENT */
+/* INDEX CONTENT */
 
 .body {
     width: 90%;
@@ -72,6 +73,14 @@ nav {
     float: left;
     margin-left: .3em;
     font-size: 1.1em;
+}
+
+#fakeNews article {
+    margin: 3em auto;
+    padding: 2em 1em;
+    border: 2px double lightgrey;
+    border-bottom-right-radius: 2em;
+    box-shadow: 1px 1px 10px .5px #888888;
 }
 
 #customer {
