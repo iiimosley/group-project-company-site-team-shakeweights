@@ -124,7 +124,7 @@ nav {
     width: 20%;
 }
 
-.socialMedia a, img {
+.socialMedia a img {
     display: inline-block;
     margin: auto;
     height: 20px;
