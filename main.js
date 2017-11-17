@@ -3,49 +3,49 @@ console.log ("hello");
 var products = [
     {
         name: "Classic Shakeweight",
-        description: "The one and only - how you got hooked on what some call 'the best exercise equipment around, if you're really serious about getting in the best shape of your life'",
+        description: "<h6>The one and only - how you got hooked on what some call 'the best exercise equipment around, if you're really serious about getting in the best shape of your life'</h6>",
         price: "$40",
         url: "img/productImages/classicShakeweight.jpg"
     },
     {
         name: "Extra Heavy Shakeweight",
-        description: "For those who are super cereal",
+        description: "<h6>For those who are super cereal</h6>",
         price: "$45",
         url: "img/productImages/extraHeavyShakeweight.jpg"
     },
     {
         name: "Extra Light Shakeweight",
-        description: "You just really enjoy the pumping motion",
+        description: "<h6>You just really enjoy the pumping motion</h6>",
         price: "$45", 
         url: "img/productImages/extraLightShakeweight.jpg"  
     },
     {
         name: "Shake Your Weight Down: Exercises Using The Shakeweight",
-        description: "The ultimate guide for using that shakeweight to shake in different ways",
+        description: "<h6>The ultimate guide for using that shakeweight to shake in different ways</h6>",
         price: "$25",
         url: "img/productImages/exerciseBook.png"
     },
     {
         name: "Excluse Shakeweight Sweatbands",
-        description: "For a limited time only, let others know how much you sweat with this one of a kind sweatband",
+        description: "<h6>For a limited time only, let others know how much you sweat with this one of a kind sweatband</h6>",
         price: "$10",
         url: "img/productImages/sweatband.jpg"
     },
     {
         name: "Really Kewl Shakeweight T",
-        description: "Just a sweet shirt to wear",
+        description: "<h6>Just a sweet shirt to wear</h6>",
         price: "$20",
         url: "img/productImages/tshirt.jpeg"
     },
     {
         name: "Really Kewl Shakeweight Muscle T",
-        description: "You've already given up on life",
+        description: "<h6>You've already given up on life</h6>",
         price: "$20",
         url: "img/productImages/muscleT.jpg"
     },
     {
         name: "Exercise Specialty Gloves",
-        description: "At this point, why not",
+        description: "<h6>At this point, why not</h6>",
         price: "$15",
         url: "img/productImages/gloves.jpg"
     }
