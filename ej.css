@@ -1,6 +1,9 @@
-.center {
-    text-align: center;
-    width: 100%;
-    font-size: 3em;
-    margin: -2 0;
+.jobs {
+    text-align: justify;
+    width: 50%;
+    
+}
+
+.border {
+    border-bottom: solid 5px black;
 }
