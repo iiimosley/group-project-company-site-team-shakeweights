@@ -54,21 +54,21 @@ var products = [
 for (var i=0; i<products.length; i++) {
         console.log(products[i]);
         if (i === 0) {
-            document.getElementById("classic-shakeweight").innerHTML+=products[i].name + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
+            document.getElementById("classic-shakeweight").innerHTML+="<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
         } else if (i === 1) {
-            document.getElementById("extra-heavy-shakeweight").innerHTML+=products[i].name + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
+            document.getElementById("extra-heavy-shakeweight").innerHTML+="<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
         } else if (i === 2) {
-            document.getElementById("extra-light-shakeweight").innerHTML+=products[i].name + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
+            document.getElementById("extra-light-shakeweight").innerHTML+="<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
         } else if (i === 3) {
-            document.getElementById("shake-your-weight-down").innerHTML+=products[i].name + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">' 
+            document.getElementById("shake-your-weight-down").innerHTML+="<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">' 
         } else if (i === 4) {
-            document.getElementById("exclusive-shakeweight-sweatbands").innerHTML+=products[i].name + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
+            document.getElementById("exclusive-shakeweight-sweatbands").innerHTML+="<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
         } else if (i === 5) {
-            document.getElementById("kewl-shakeweight-t").innerHTML+=products[i].name + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
+            document.getElementById("kewl-shakeweight-t").innerHTML+="<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
         } else if (i === 6) {
-            document.getElementById("not-so-kewl").innerHTML+=products[i].name + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
+            document.getElementById("not-so-kewl").innerHTML+="<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
         } else if (i === 7) {
-            document.getElementById("gloves").innerHTML+=products[i].name + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
+            document.getElementById("gloves").innerHTML+="<h3>" + products[i].name + "</h3>" + "<br>" + products[i].description + "<br>" + products[i].price + "<br>" + '<img src="' + products[i].url + '">'
         }
 
         // document.body.insertBefore("")
