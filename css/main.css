@@ -62,7 +62,7 @@ nav {
     animation-iteration-count: 1;
 }
 
-/* INDEX CONTENT */
+/* INDEX LAYOUT */
 
 .body {
     width: 90%;
@@ -73,13 +73,24 @@ nav {
     padding-top: 2em;
     background-color: #FFF3B3;
     overflow: hidden;
+    padding-bottom: 3em;
 }
+
+/* NEWS CONTENT */
 
 #fakeNews {
     width: 65%;
     float: left;
     margin-left: .3em;
     font-size: 1.1em;
+}
+
+#fakeNews h1 {
+    font-style: italic;
+    letter-spacing: .2em;
+    text-shadow: 4px 0 white;
+    border-bottom: 1px solid black;
+    box-shadow: 6px 12px 12px -12px white;  
 }
 
 #fakeNews article {
@@ -91,29 +102,53 @@ nav {
     background-color: white;
 }
 
+#fakeNews footer {
+    text-align: right;
+    padding-top: 1em;
+    font-size: .7em;
+    font-weight: 300;
+}
+
+/* CUSTOMER CONTENT */
+
 #customer {
     width: 30%;
     float: right;
     font-size: .9em;
 }
 
+#customer h3 {
+    font-style: italic;
+    letter-spacing: .2em;
+    text-shadow: 4px 0 white;
+    border-bottom: 1px solid black;
+    box-shadow: 4px 8px 8px -8px white;
+}
+
 #customer .scroll {
     width: 20em;
-    height: 20em;
+    height: 25em;
+    text-align: justify;
     border: 1px dotted black;
     overflow-y: scroll;
     background-color: white;
 }
 
+.scroll p {
+    margin: auto .5em;
+}
+
+
+
 /* footer */
 
 .mainFooter {
     clear: both;
-    margin: 0 auto 1em;
+    margin: 0 auto;
     width: 100%;
-    padding-top: .2em;
+    padding: .2em auto;
     border-top: .5px solid grey;
-    box-shadow: 0 -5px 5px -5px #333;
+    box-shadow: 0 -.02em 1em #333;
     text-align: center;
 }
 
@@ -125,7 +160,8 @@ nav {
 .socialMedia {
     display: flex;
     flex-direction: row;
-    margin: 1em auto;
+    margin: 1em auto 0;
+    padding-bottom: .5em;
     width: 20%;
     justify-content: center;
 }
