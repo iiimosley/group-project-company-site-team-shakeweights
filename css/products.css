@@ -6,6 +6,11 @@
     align-items: stretch;
 }
 
+.products-page img {
+    width: 100%;
+    height: auto;
+}
+
 .flexParent1, .flexParent2, .flexParent3 {
     display: flex;
     flex-direction: row;
@@ -20,6 +25,7 @@
     flex-basis: 10%;
     flex: 1;
     margin: 1em;
+    background-color: white;
 }
 
 .flexParent2 div {
@@ -27,6 +33,7 @@
     flex-basis: 10%;
     flex: 1;
     margin: 1em;
+    background-color: white;
 }
 
 .flexParent3 div {
@@ -34,6 +41,7 @@
     flex-basis: 10%;
     flex: 1;
     margin: 5em;
+    background-color: white;
 }
 
 .flexParent1 div, .flexParent2 div, .flexParent3 div {
